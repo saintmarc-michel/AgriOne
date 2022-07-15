@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics - Commodity</title>
+
+       <!-- Link Bootstrap  -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Style Link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+
+ <!-- =============================== NAVIGATION BAR ======================  -->
+
+<header class="container flex-wrap flex-md-nowrap" aria-label="Main navigation">
+        <nav class="navbar navbar-expand-md">
+          <a class="navbar-brand p-0 " href="http://127.0.0.1:5501/" aria-label="Agri One">
+            <img src="./assets/images/icons/Logo.png" alt="Logo">
+          </a>
+      
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="./assets/images/icons/icons8-menu-arrondi-90.png"> 
+          </button>
+      
+          <div class="collapse navbar-collapse" id="bdNavbar" >
+            <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0">
+
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link" href="#">Dashboard</a>
+              </li> 
+
+              <li class="nav-item active col-6 col-md-auto">
+                <a class="nav-link" href="http://127.0.0.1:5501/index.html">Analytics</a>
+
+                  <ul class="sub-link">
+                    <li><a href="#">Market</a></li>
+                    <li class="li-active"><a href="#">Commodity</a></li>
+                  </ul>
+
+              </li>
+              <li class="nav-item task-sub col-6 col-md-auto">
+                <a class="nav-link" href="http://127.0.0.1:5501/task_manager.html">Task Manager</a>
+
+                  <ul class="sub-link">
+                    <li><a href="#">To do</a></li>
+                    <li><a href="#">Incidents</a></li>
+                  </ul>
+
+              </li>
+              <li class="nav-item col-6 col-md-auto">
+                <a class="nav-link" href="http://127.0.0.1:5501/login.html">Designer</a>
+              </li>
+            </ul>
+      
+              <hr class="d-md-none ">
+        
+              <ul class="user-section ms-md-auto">
+                <li class="user-items col-6 col-md-auto">
+                  <a class="user-link" href="#">Need help?</a>
+                </li>
+                <li class="user-items col-6 col-md-auto">
+                  
+                  <div class="user my-2 ms-md-3">
+                    <span class="user-logo">J</span>
+                    <div class="user-id">
+                      <h6>John Deo</h6>
+                      <span class="user-text">Assessor</span>
+                    </div>
+                  </div>
+                </li>
+              
+              </ul>
+      
+          </div>
+        </nav>
+
+</header>
+
+
+
+<main>
+  <div class="container">
+    <h3>Choose commodity</h3>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="commodity">
+
+          <div class="select-list">
+
+            <div class="drop-list">
+
+            <select name="dropdown" class="input_box">
+              <option value="text">Apple</option>
+              <option value="text">Samsung</option>
+              <option value="text">Oppo</option>
+              <option value="text">Realme</option>
+              <option value="text">Huawei</option>
+          </select>
+            </div>
+
+
+            <div class="radio">
+            <input type="radio" id="radio-one" name="switch-one"checked/>
+                <label for="radio-one">Weekly</label>
+    
+                <input type="radio" id="radio-two" name="switch-one"/>
+                <label for="radio-two">Monthly</label>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+
+              <div class="sold">
+        
+                <h4>Apples sold</h4>
+        
+                <div class="items">
+    
+                  <div class="icon">
+                    <img src="./assets/images/icons/vuesax-bulk-bag-tick.svg" alt="icon">
+                  </div>
+    
+                  <div class="content">
+                    <h5>17,957</h5>
+                    <p><span>-3%</span> compared to last week <span><img src="./assets/images/icons/down-red.svg" alt=""></span></p>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+    
+              <div class="sold">
+        
+                <h4>Apples supplied</h4>
+        
+                <div class="items">
+    
+                  <div class="icon">
+                    <img src="./assets/images/icons/vuesax-bulk-group.svg" alt="icon">
+                  </div>
+    
+                  <div class="content">
+                    <h5>55,751</h5>
+                    <p><span class="green">32.2%</span> of supply sold<span><img src="./assets/images/icons/up-green.svg" alt=""></span></p>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-6">
+    
+              <div class="sold">
+        
+                <h4>Average sentiment score</h4>
+        
+                <div class="items">
+    
+                  <div class="icon">
+                    <img src="./assets/images/icons/vuesax-bulk-chart.svg" alt="icon">
+                  </div>
+    
+                  <div class="content">
+                    <h5>R2,376,490</h5>
+                    <p>0.01 compared to last week<span><img src="./assets/images/icons/up-green.svg" alt="icon"></span></p>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+    
+            <div class="col-lg-3 col-md-6 col-sm-6">
+    
+              <div class="sold">
+        
+                <h4>Average revenue</h4>
+        
+                <div class="items">
+    
+                  <div class="icon">
+                    <img src="./assets/images/icons/vuesax-bulk-money-recive.svg" alt="icon">
+                  </div>
+    
+                  <div class="content">
+                    <h5>-0.03</h5>
+                    <p><span class="green">32.2%</span> of supply sold<span><img src="./assets/images/icons/up-green.svg" alt="icon"></span></p>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+
+          </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+<section>
+  <div class="container">
+    <div class="row">
+  
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="demand">
+  
+          <h4>Sales volume & demand</h4>
+  
+          <img class="sale-img" src="./assets/images/sales-volume.svg" alt="...">
+        </div>
+      </div>
+  
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="demand">
+  
+          <h4>Sales revenue</h4>
+  
+          <img class="revenue-img" src="./assets/images/revenue-img.png" alt="...">
+        </div>
+      </div>
+  
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="demand">
+  
+          <h4>Sales price</h4>
+  
+          <img class="sale-img" src="./assets/images/sale-price.svg" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-5 col-md-12 col-sm-12">
+        <div class="maps">
+
+          <div class="maps-img">
+            <img class="img-fluid" src="./assets/images/road-g94036a9e0_640.jpg" alt="img">
+          </div>
+
+          <div class="three-dots">
+            <img src="./assets/images/three-dots.svg" alt="">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-7 col-md-12 col-sm-12">
+
+        <div class="scrollspyd">
+            <h2>Latest agriculture news and sentiment</h2>
+
+            <div class="sent">
+              <span class="sent-score">Sentiment score </span>
+              <span class="sent-sent">Sentiment</span>
+            </div>
+
+          <div class="box-content">
+            <div class="box">
+
+              <div class="texts">
+                <p>Stellar performance of Carmingo apricots persuadeos Koo farmers to consider phasing out apples - FreshPlaza.com</p>
+                <small>Mon, 07 Feb <span><a href="#">FreshPlaza.com</a></span></small>
+              </div>
+
+              <div class="score">
+                <p>2</p>
+              </div>
+
+              <div class="sentiment">
+                <p>Neutral</p>
+              </div>
+            </div>
+
+            <div class="box">
+
+              <div class="texts">
+                <p>USDA Extends comment period changes to Apple Crop Insurance - kdhlradio.com</p>
+                <small>Mon, 07 Feb <span><a href="#">FreshPlaza.com</a></span></small>
+              </div>
+
+              <div class="score">
+                <p>0.13</p>
+              </div>
+
+              <div class="sentiment">
+                <p>Neutral</p>
+              </div>
+            </div>
+
+            <div class="box">
+
+              <div class="texts">
+                <p>Stellar performance of Carmingo apricots persuadeos Koo farmers to consider phasing out apples - FreshPlaza.com</p>
+                <small>Mon, 07 Feb <span><a href="#">FreshPlaza.com</a></span></small>
+              </div>
+
+              <div class="score">
+                <p class="red-active">0</p>
+              </div>
+
+              <div class="sentiment">
+                <p class="red-active">Negative</p>
+              </div>
+            </div>
+
+            <div class="box">
+
+              <div class="texts">
+                <p>Stellar performance of Carmingo apricots persuadeos Koo farmers to consider phasing out apples - FreshPlaza.com</p>
+                <small>Mon, 07 Feb <span><a href="#">FreshPlaza.com</a></span></small>
+              </div>
+
+              <div class="score">
+                <p>2</p>
+              </div>
+
+              <div class="sentiment">
+                <p>Neutral</p>
+              </div>
+            </div>
+
+            <div class="box">
+
+              <div class="texts">
+                <p>Stellar performance of Carmingo apricots persuadeos Koo farmers to consider phasing out apples - FreshPlaza.com</p>
+                <small>Mon, 07 Feb <span><a href="#">FreshPlaza.com</a></span></small>
+              </div>
+
+              <div class="score">
+                <p>2</p>
+              </div>
+
+              <div class="sentiment">
+                <p>Neutral</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+   <!-- Link Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

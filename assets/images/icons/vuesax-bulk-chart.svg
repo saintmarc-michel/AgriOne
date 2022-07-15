@@ -1,0 +1,9 @@
+<svg id="vuesax_bulk_chart" data-name="vuesax/bulk/chart" xmlns="http://www.w3.org/2000/svg" width="20.832" height="20.685" viewBox="0 0 20.832 20.685">
+  <g id="chart">
+    <path id="Vector" d="M18.011,1.293H.651A.653.653,0,0,1,0,.646.653.653,0,0,1,.651,0h17.36a.653.653,0,0,1,.651.646A.653.653,0,0,1,18.011,1.293Z" transform="translate(1.085 17.669)" fill="#0da304"/>
+    <path id="Vector-2" data-name="Vector" d="M0,1.724V17.238H3.906V1.724C3.906.776,3.515,0,2.344,0H1.562C.391,0,0,.776,0,1.724Z" transform="translate(8.463 1.724)" fill="#0da304"/>
+    <path id="Vector-3" data-name="Vector" d="M0,1.724V12.067H3.472V1.724C3.472.776,3.125,0,2.083,0H1.389C.347,0,0,.776,0,1.724Z" transform="translate(2.604 6.895)" fill="#0da304" opacity="0.4"/>
+    <path id="Vector-4" data-name="Vector" d="M0,1.724V7.757H3.472V1.724C3.472.776,3.125,0,2.083,0H1.389C.347,0,0,.776,0,1.724Z" transform="translate(14.756 11.205)" fill="#0da304" opacity="0.4"/>
+    <path id="Vector-5" data-name="Vector" d="M0,0H20.832V20.685H0Z" fill="none" opacity="0"/>
+  </g>
+</svg>
